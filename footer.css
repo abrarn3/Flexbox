@@ -1,4 +1,3 @@
-
 body {
   margin: 0px;
 }
@@ -6,6 +5,8 @@ body {
 .footer {
   height: 150px;
   background-color: lightgrey;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .title {
@@ -20,5 +21,6 @@ body {
 .item {
   padding: 10px;
   width: 150px;
-  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
 }

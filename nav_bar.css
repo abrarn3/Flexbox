@@ -1,12 +1,13 @@
-body{
+body {
   margin: 0px;
 }
-
 
 .navbar {
   height: 60px;
   width: 100%;
   background-color: lightgrey;
+  display: flex;
+  justify-content: start;
 }
 
 .item {

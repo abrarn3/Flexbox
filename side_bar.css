@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0px;
 }
 
@@ -7,9 +7,18 @@ body{
   background-color: lightgrey;
   height: 100vh;
   padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .item {
   font-weight: bold;
-  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
+  font-family:
+    Circular,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    "Helvetica Neue",
+    sans-serif;
 }
